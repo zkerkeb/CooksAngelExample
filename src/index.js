@@ -1,18 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './screens/app';
 import * as serviceWorker from './serviceWorker';
 import {ThemeProvider} from 'styled-components';
 
-const theme = {
-  primary: 'blue',
-  fireColors: {
-    red: 'red',
-    green: 'green',
-    orange: 'orange'
-  }
-};
+import theme from './config/theme';
 
 class Index extends React.Component{
   render(){
