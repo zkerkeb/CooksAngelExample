@@ -1,0 +1,9 @@
+wLe but de l'exercie est de completer les tests sur un composant (ici un compteur)
+
+le but est de monitorer la state et les props
+
+le composant doit se charger, 
+
+-- on s'assure alors que la cle loading de notre state est a true lors du chargement.
+-- quand on click sur le bouton - la fonction decrement envoyer en props s'execute bien
+-- quand on click sur le bouton + la fonction increment envoyer en props s'execute bien 

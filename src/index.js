@@ -1,18 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './screens/app';
 import * as serviceWorker from './serviceWorker';
 import {ThemeProvider} from 'styled-components';
+import {Provider} from 'react-redux';
+
+import Routes from './config/routes';
 
 import theme from './config/theme';
+
+import {store} from './config/store';
+
+import './config/axios';
 
 class Index extends React.Component{
   render(){
     return(
-    <ThemeProvider theme={theme}>
-       <App />
-    </ThemeProvider>
+      <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <Routes />
+      </ThemeProvider>
+    </Provider>
     );
   }
 }

@@ -1,0 +1,10 @@
+le composant en question dans cette exercice ecrit des data sous forme de string dans le local storage, 
+
+les buts de cet exercice sont les suivant:
+   vous vous rendrez compte que le localStorage utiliser dans notre composant est considere comme indefini,
+   c'est normal, car jest est basé sur node, et ne reconnais pas cette methode propre au navigateur,
+   vous devrez donc:
+   - creer un mock de la methode localStorage, et la rendre utilisable dans votre fichier de test
+   - effectuer des tests vous assurant que le local storage fonctionne bien (ecriture dans le local storage, recuperation de data, suppression de data)
+   - vous devrez faire en sorte que le localstorage sois nettoyé avant chaque test.
+   

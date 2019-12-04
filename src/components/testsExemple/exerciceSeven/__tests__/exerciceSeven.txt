@@ -1,0 +1,6 @@
+le but de cet exercice est de tester si les methodes de notre composant sont bien appeler
+
+il faudra s'assurer que "
+
+- le componentDidMount sois bien appeler lors du render du composant
+- la methode getHouse sois bien executer lorsqu'on l'invoque

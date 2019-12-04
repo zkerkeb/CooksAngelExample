@@ -1,0 +1,6 @@
+// Exercice 2
+ 
+// le composant de cet exercice est une liste, vous devez vous assurez dans vos tests que :
+-- s'assurer que le composant se rendent correctement
+-- s'assurer que le titre soit la string 'allo'
+-- le nombre d'element li sois le meme que la props numberElements (s'assurer que le composant fonctionne comme prevu)

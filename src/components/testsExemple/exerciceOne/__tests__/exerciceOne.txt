@@ -1,0 +1,6 @@
+Le but de l'exercie est d'effectuer des tests basique sur un composant (ici un compteur)
+
+
+-- il faut s'assurer que le composant se rendent bien 
+-- que le composant ait bien deux bouton
+-- et qu'il retourne bien la valeur nulle quand on envoie la proprieteé disabled a true

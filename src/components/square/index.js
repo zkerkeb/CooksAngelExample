@@ -2,7 +2,7 @@ import posed from 'react-pose';
 import styled from 'styled-components';
 
 const Square = styled.div`
-  margin:20px;
+  margin: 20px;
   height: 50px;
   width: 50px;
   background-color: ${props => props.color ?  props.theme.fireColors[props.color]  : props.theme.fireColors.red};

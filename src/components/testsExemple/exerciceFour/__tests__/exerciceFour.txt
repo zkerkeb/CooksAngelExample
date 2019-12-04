@@ -1,0 +1,9 @@
+Le but de l'exercie est de completer les tests sur un composant (ici un compteur)
+
+le but est de pratiquer les test d'evenement (ma fonction est elle bien call quand je click sur mon bouton ? etc...)
+on se servira donc d'une fontion mocké
+
+s'assurer que 
+
+-- quand on click sur le bouton - la fonction decrement envoyer en props s'execute bien
+-- quand on click sur le bouton + la fonction increment envoyer en props s'execute bien 

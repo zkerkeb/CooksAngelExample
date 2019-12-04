@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot (good Practice) 1`] = `
+<PoseElement
+  elementType={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  margin: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: ",
+          [Function],
+          ";
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  innerRef={null}
+  poseConfig={
+    Object {
+      "end": Object {
+        "transition": Object {
+          "duration": 1000,
+        },
+        "x": 100,
+      },
+      "start": Object {
+        "transition": Object {
+          "duration": 1000,
+        },
+        "x": 0,
+      },
+    }
+  }
+/>
+`;

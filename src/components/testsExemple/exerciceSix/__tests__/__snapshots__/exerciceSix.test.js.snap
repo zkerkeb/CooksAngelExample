@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot with props 1`] = `
+<div
+  className="LocalStorageContainer"
+>
+  <p>
+    test
+  </p>
+</div>
+`;
+
+exports[`should match the snapshot without props 1`] = `
+<div
+  className="LocalStorageContainer"
+>
+  <p>
+    test
+  </p>
+</div>
+`;
